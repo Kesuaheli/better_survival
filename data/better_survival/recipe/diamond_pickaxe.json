@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"ddd",
+		" s ",
+		" s "
+	],
+	"key": {
+		"d": "minecraft:diamond",
+		"s": "minecraft:poisonous_potato"
+	},
+	"result": {
+		"id": "minecraft:diamond_pickaxe",
+		"components": {
+			"item_model": "better_survival:diamond_pickaxe",
+			"minecraft:max_damage": 190,
+			"minecraft:repair_cost": 2147483647
+		}
+	}
+}

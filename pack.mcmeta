@@ -2,5 +2,45 @@
 	"pack": {
 		"pack_format": 61,
 		"description": "A datapack for a better survival experience for our server."
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_pickaxe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_axe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_sword\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_shovel\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_hoe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_helmet\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_chestplate\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_leggings\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_boots\\.json$"
+			}
+		]
 	}
 }
