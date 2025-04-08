@@ -1,0 +1,13 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:block_rot",
+			"integrity": 0.9,
+			"rottable_blocks": "minecraft:stone_bricks"
+		},
+		{
+			"processor_type": "minecraft:block_age",
+			"mossiness": 0.6
+		}
+	]
+}

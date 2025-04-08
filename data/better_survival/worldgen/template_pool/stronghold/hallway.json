@@ -1,0 +1,113 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/hallway/chest",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 48,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/hallway/corner",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/hallway/cross",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/hallway/straight",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 22,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/hallway/t_intersection",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/room/empty",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/room/jail",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/room/large_intersection",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/room/library",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/room/well",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/stairs/spiral",
+				"processors": "better_survival:stronghold/age"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "better_survival:stronghold/stairs/straight",
+				"processors": "better_survival:stronghold/age"
+			}
+		}
+	]
+}
