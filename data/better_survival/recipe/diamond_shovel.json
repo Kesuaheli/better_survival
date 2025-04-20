@@ -2,18 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"ddd",
-		" s ",
-		" s "
+		"d",
+		"s",
+		"s"
 	],
 	"key": {
 		"d": "#minecraft:diamond_tool_materials",
 		"s": "#better_survival:stone_rod"
 	},
 	"result": {
-		"id": "minecraft:diamond_pickaxe",
+		"id": "minecraft:diamond_shovel",
 		"components": {
-			"item_model": "better_survival:diamond_pickaxe",
+			"item_model": "better_survival:diamond_shovel",
 			"minecraft:max_damage": 190,
 			"!minecraft:enchantable": { },
 			"minecraft:repair_cost": 2147483647

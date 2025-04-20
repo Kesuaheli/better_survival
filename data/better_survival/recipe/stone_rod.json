@@ -2,11 +2,11 @@
 	"type": "minecraft:stonecutting",
 	"ingredient": "minecraft:stone",
 	"result": {
-		"id": "minecraft:poisonous_potato",
+		"id": "minecraft:command_block",
 		"components": {
-			"!minecraft:consumable": { },
 			"minecraft:item_model": "better_survival:stone_rod",
-			"minecraft:item_name": "{\"translate\": \"item.better_survival.stone_rod\"}"
+			"minecraft:item_name": { "translate": "item.better_survival.stone_rod" },
+			"minecraft:rarity": "common"
 		}
 	}
 }
