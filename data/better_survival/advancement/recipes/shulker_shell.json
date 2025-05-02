@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_chorus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:chorus_flower"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_chorus"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"better_survival:shulker_shell"
+		]
+	}
+}

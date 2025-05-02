@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"mmm",
+		"mcm"
+	],
+	"key": {
+		"m": "minecraft:phantom_membrane",
+		"c": "minecraft:chorus_flower"
+	},
+	"result": {
+		"id": "minecraft:shulker_shell",
+		"count": 3
+	}
+}
