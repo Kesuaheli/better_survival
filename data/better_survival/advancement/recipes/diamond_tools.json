@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:diamond_tool_materials"
+					}
+				]
+			}
+		},
+		"has_stone_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#better_survival:stone_rod"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond",
+			"has_stone_rod"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"better_survival:diamond_axe",
+			"better_survival:diamond_hoe",
+			"better_survival:diamond_pickaxe",
+			"better_survival:diamond_shovel",
+			"better_survival:diamond_sword"
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:stone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stone"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"better_survival:stone_rod"
+		]
+	}
+}
