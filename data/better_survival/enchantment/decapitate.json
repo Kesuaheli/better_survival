@@ -16,6 +16,6 @@
 		"mainhand",
 		"offhand"
 	],
-	"supported_items": "#minecraft:enchantable/weapon",
-	"weight": 5
+	"supported_items": "#minecraft:axes",
+	"weight": 25
 }
