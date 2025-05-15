@@ -1,0 +1,21 @@
+{
+	"values": [
+		"#minecraft:air",
+		"#minecraft:buttons",
+		"#minecraft:candles",
+		"#minecraft:corals",
+		"#minecraft:crops",
+		"#minecraft:fire",
+		"#minecraft:flowers",
+		"#minecraft:pressure_plates",
+		"#minecraft:rails",
+		"#minecraft:saplings",
+		"#minecraft:wall_corals",
+		"#minecraft:wall_signs",
+		"#minecraft:wool_carpets",
+
+		"minecraft:glow_lichen",
+		"minecraft:snow",
+		"minecraft:vine"
+	]
+}
