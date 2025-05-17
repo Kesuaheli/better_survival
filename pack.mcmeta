@@ -43,7 +43,15 @@
 			},
 			{
 				"namespace": "^minecraft$",
+				"path": "^recipe/sticky_piston\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^advancement/story/(enter_the_end|follow_ender_eye)\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/redstone/sticky_piston\\.json$"
 			},
 			{
 				"namespace": "^minecraft$",

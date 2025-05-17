@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "sticky_piston",
+	"category": "redstone",
+	"key": {
+		"P": "minecraft:piston",
+		"H": "minecraft:honey_bottle"
+	},
+	"pattern": [
+		"H",
+		"P"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:sticky_piston"
+	}
+}

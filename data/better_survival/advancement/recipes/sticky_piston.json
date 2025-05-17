@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_piston": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:piston"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"better_survival:sticky_piston_honey",
+			"better_survival:sticky_piston_slime"
+		]
+	}
+}
