@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:match_tool",
+	"predicate": {
+		"predicates": {
+			"minecraft:enchantments": [
+				{
+					"enchantments": "better_survival:decapitate"
+				}
+			]
+		}
+	}
+}
+
