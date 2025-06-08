@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 900,
+	"experience": 9.0,
+	"group": "iron_ingot",
+	"ingredient": "minecraft:raw_iron_block",
+	"result": {
+		"id": "minecraft:iron_block"
+	}
+}
