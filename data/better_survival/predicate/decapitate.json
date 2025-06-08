@@ -1,5 +1,6 @@
 {
-	"condition": "minecraft:match_tool",
+	"condition": "minecraft:entity_properties",
+	"entity": "attacking_player",
 	"predicate": {
 		"predicates": {
 			"minecraft:enchantments": [
