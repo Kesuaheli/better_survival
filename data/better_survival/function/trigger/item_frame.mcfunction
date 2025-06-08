@@ -21,7 +21,7 @@ execute store result score @s better_survival.set_invisible run execute if entit
 # changing actual values
 execute as @e[type=#better_survival:item_frames, tag=better_survival.modify, nbt={Invisible: 0b}] run tag @s add better_survival.visible
 execute as @e[type=#better_survival:item_frames, tag=better_survival.modify, nbt={Invisible: 1b}] run data merge entity @s {Invisible: 0b, Invulnerable: 0b, Fixed: 0b}
-execute as @e[type=#better_survival:item_frames, tag=better_survival.modify, tag=visible] run data merge entity @s {Invisible: 1b, Invulnerable: 1b, Fixed: 1b}
+execute as @e[type=#better_survival:item_frames, tag=better_survival.modify, tag=better_survival.visible] run data merge entity @s {Invisible: 1b, Invulnerable: 1b, Fixed: 1b}
 execute as @e[type=#better_survival:item_frames] run tag @s remove better_survival.visible
 execute as @e[type=#better_survival:item_frames] run tag @s remove better_survival.modify
 
