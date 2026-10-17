@@ -20,6 +20,10 @@
 			},
 			{
 				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_spear\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^recipe/diamond_shovel\\.json$"
 			},
 			{
