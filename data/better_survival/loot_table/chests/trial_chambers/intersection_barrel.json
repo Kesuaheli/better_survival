@@ -6,11 +6,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": 1.0,
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						},
 						{
 							"add": false,
@@ -19,10 +19,10 @@
 								"max": 0.9,
 								"min": 0.4
 							},
-							"function": "minecraft:set_damage"
+							"type": "minecraft:set_damage"
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:on_random_loot"
 						}
 					],
@@ -30,11 +30,11 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": 1.0,
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						},
 						{
 							"add": false,
@@ -43,14 +43,14 @@
 								"max": 0.8,
 								"min": 0.15
 							},
-							"function": "minecraft:set_damage"
+							"type": "minecraft:set_damage"
 						}
 					],
 					"name": "minecraft:iron_pickaxe"
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": {
@@ -58,18 +58,18 @@
 								"max": 3.0,
 								"min": 1.0
 							},
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						}
 					],
 					"name": "minecraft:diamond"
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": 1.0,
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						},
 						{
 							"add": false,
@@ -78,14 +78,14 @@
 								"max": 0.8,
 								"min": 0.15
 							},
-							"function": "minecraft:set_damage"
+							"type": "minecraft:set_damage"
 						}
 					],
 					"name": "minecraft:compass"
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": {
@@ -93,18 +93,18 @@
 								"max": 2.0,
 								"min": 1.0
 							},
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						}
 					],
 					"name": "minecraft:bucket"
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": 1.0,
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						},
 						{
 							"add": false,
@@ -113,7 +113,7 @@
 								"max": 0.8,
 								"min": 0.15
 							},
-							"function": "minecraft:set_damage"
+							"type": "minecraft:set_damage"
 						}
 					],
 					"name": "minecraft:golden_axe",
@@ -121,11 +121,11 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": 1.0,
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						},
 						{
 							"add": false,
@@ -134,7 +134,7 @@
 								"max": 0.8,
 								"min": 0.15
 							},
-							"function": "minecraft:set_damage"
+							"type": "minecraft:set_damage"
 						}
 					],
 					"name": "minecraft:golden_pickaxe",
@@ -142,7 +142,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": {
@@ -150,7 +150,7 @@
 								"max": 15.0,
 								"min": 5.0
 							},
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						}
 					],
 					"name": "minecraft:bamboo_planks",
@@ -158,7 +158,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"count": {
@@ -166,7 +166,7 @@
 								"max": 10.0,
 								"min": 6.0
 							},
-							"function": "minecraft:set_count"
+							"type": "minecraft:set_count"
 						}
 					],
 					"name": "minecraft:baked_potato",

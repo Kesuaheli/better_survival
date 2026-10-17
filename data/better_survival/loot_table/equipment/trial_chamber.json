@@ -10,16 +10,14 @@
 						"pools": [
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"type": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -27,7 +25,7 @@
 														"pattern": "minecraft:bolt"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -36,7 +34,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:chainmail_helmet"
@@ -46,16 +44,14 @@
 							},
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"condition": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -63,7 +59,7 @@
 														"pattern": "minecraft:bolt"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -72,7 +68,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:chainmail_chestplate"
@@ -90,16 +86,14 @@
 						"pools": [
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"condition": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -107,7 +101,7 @@
 														"pattern": "minecraft:flow"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -116,7 +110,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:iron_helmet"
@@ -126,16 +120,14 @@
 							},
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"condition": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -143,7 +135,7 @@
 														"pattern": "minecraft:flow"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -152,7 +144,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:iron_chestplate"
@@ -170,16 +162,14 @@
 						"pools": [
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"condition": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -187,7 +177,7 @@
 														"pattern": "minecraft:flow"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -196,7 +186,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:iron_helmet"
@@ -206,16 +196,14 @@
 							},
 							{
 								"bonus_rolls": 0.0,
-								"conditions": [
-									{
-										"chance": 0.5,
-										"condition": "minecraft:random_chance"
-									}
-								],
+								"condition": {
+									"chance": 0.5,
+									"condition": "minecraft:random_chance"
+								},
 								"entries": [
 									{
 										"type": "minecraft:item",
-										"functions": [
+										"modifier": [
 											{
 												"components": {
 													"minecraft:trim": {
@@ -223,7 +211,7 @@
 														"pattern": "minecraft:flow"
 													}
 												},
-												"function": "minecraft:set_components"
+												"type": "minecraft:set_components"
 											},
 											{
 												"add": false,
@@ -232,7 +220,7 @@
 													"minecraft:projectile_protection": 4.0,
 													"minecraft:protection": 4.0
 												},
-												"function": "minecraft:set_enchantments"
+												"type": "minecraft:set_enchantments"
 											}
 										],
 										"name": "minecraft:iron_chestplate"

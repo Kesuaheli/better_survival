@@ -1,5 +1,4 @@
 {
-	"condition": "minecraft:reference",
-	"name": "better_survival:decapitate"
+	"type": "minecraft:any_of",
+	"terms": "better_survival:decapitate"
 }
-

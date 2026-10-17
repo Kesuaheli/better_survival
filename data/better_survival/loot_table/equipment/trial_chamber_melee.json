@@ -21,26 +21,26 @@
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"enchantments": {
 								"minecraft:sharpness": 1.0
 							},
-							"function": "minecraft:set_enchantments"
+							"type": "minecraft:set_enchantments"
 						}
 					],
 					"name": "minecraft:iron_sword"
 				},
 				{
 					"type": "minecraft:item",
-					"functions": [
+					"modifier": [
 						{
 							"add": false,
 							"enchantments": {
 								"minecraft:knockback": 1.0
 							},
-							"function": "minecraft:set_enchantments"
+							"type": "minecraft:set_enchantments"
 						}
 					],
 					"name": "minecraft:iron_sword"

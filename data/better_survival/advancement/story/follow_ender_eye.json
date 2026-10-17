@@ -3,17 +3,15 @@
 	"criteria": {
 		"in_stronghold": {
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"structures": "better_survival:stronghold"
-							}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structures": "better_survival:stronghold"
 						}
 					}
-				]
+				}
 			},
 			"trigger": "minecraft:location"
 		}
