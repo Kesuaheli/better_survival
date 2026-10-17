@@ -2,24 +2,21 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"bonus_rolls": 0.0,
 			"entries": [
 				{
 					"type": "minecraft:item",
 					"modifier": [
 						{
-							"add": false,
-							"count": 1.0,
-							"type": "minecraft:set_count"
+							"type": "minecraft:set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"max": 0.9,
 								"min": 0.4
-							},
-							"type": "minecraft:set_damage"
+							}
 						},
 						{
 							"type": "minecraft:enchant_randomly",
@@ -32,88 +29,76 @@
 					"type": "minecraft:item",
 					"modifier": [
 						{
-							"add": false,
-							"count": 1.0,
-							"type": "minecraft:set_count"
+							"type": "minecraft:set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"max": 0.8,
 								"min": 0.15
-							},
-							"type": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "minecraft:iron_pickaxe"
 				},
 				{
 					"type": "minecraft:item",
-					"modifier": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 3.0,
-								"min": 1.0
-							},
-							"type": "minecraft:set_count"
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 3,
+							"min": 1
 						}
-					],
+					},
 					"name": "minecraft:diamond"
 				},
 				{
 					"type": "minecraft:item",
 					"modifier": [
 						{
-							"add": false,
-							"count": 1.0,
-							"type": "minecraft:set_count"
+							"type": "minecraft:set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"max": 0.8,
 								"min": 0.15
-							},
-							"type": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "minecraft:compass"
 				},
 				{
 					"type": "minecraft:item",
-					"modifier": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 2.0,
-								"min": 1.0
-							},
-							"type": "minecraft:set_count"
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 2,
+							"min": 1
 						}
-					],
+					},
 					"name": "minecraft:bucket"
 				},
 				{
 					"type": "minecraft:item",
 					"modifier": [
 						{
-							"add": false,
-							"count": 1.0,
-							"type": "minecraft:set_count"
+							"type": "minecraft:set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"max": 0.8,
 								"min": 0.15
-							},
-							"type": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "minecraft:golden_axe",
@@ -123,18 +108,16 @@
 					"type": "minecraft:item",
 					"modifier": [
 						{
-							"add": false,
-							"count": 1.0,
-							"type": "minecraft:set_count"
+							"type": "minecraft:set_count",
+							"count": 1
 						},
 						{
-							"add": false,
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"max": 0.8,
 								"min": 0.15
-							},
-							"type": "minecraft:set_damage"
+							}
 						}
 					],
 					"name": "minecraft:golden_pickaxe",
@@ -142,41 +125,35 @@
 				},
 				{
 					"type": "minecraft:item",
-					"modifier": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 15.0,
-								"min": 5.0
-							},
-							"type": "minecraft:set_count"
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 15,
+							"min": 5
 						}
-					],
+					},
 					"name": "minecraft:bamboo_planks",
 					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
-					"modifier": [
-						{
-							"add": false,
-							"count": {
-								"type": "minecraft:uniform",
-								"max": 10.0,
-								"min": 6.0
-							},
-							"type": "minecraft:set_count"
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 10,
+							"min": 6
 						}
-					],
+					},
 					"name": "minecraft:baked_potato",
 					"weight": 10
 				}
 			],
 			"rolls": {
 				"type": "minecraft:uniform",
-				"max": 3.0,
-				"min": 1.0
+				"max": 3,
+				"min": 1
 			}
 		}
 	],
