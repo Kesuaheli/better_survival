@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"  d",
+		" s ",
+		"s  "
+	],
+	"key": {
+		"d": "#minecraft:diamond_tool_materials",
+		"s": "#better_survival:stone_rod"
+	},
+	"result": {
+		"id": "minecraft:diamond_spear",
+		"components": {
+			"item_model": "better_survival:diamond_spear",
+			"minecraft:max_damage": 190,
+			"!minecraft:enchantable": { },
+			"minecraft:repair_cost": 2147483647
+		}
+	}
+}

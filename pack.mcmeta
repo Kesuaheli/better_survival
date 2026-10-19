@@ -1,7 +1,7 @@
 {
 	"pack": {
-		"min_format": [88, 0],
-		"max_format": [88, 0],
+		"min_format": [121, 0],
+		"max_format": [121, 0],
 		"description": "A datapack for a better survival experience for our server."
 	},
 	"filter": {
@@ -17,6 +17,10 @@
 			{
 				"namespace": "^minecraft$",
 				"path": "^recipe/diamond_sword\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_spear\\.json$"
 			},
 			{
 				"namespace": "^minecraft$",
@@ -52,7 +56,47 @@
 			},
 			{
 				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_sword\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_spear\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_helmet\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_chestplate\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_leggings\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/combat/diamond_boots\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^advancement/recipes/redstone/sticky_piston\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_pickaxe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_axe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_shovel\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_hoe\\.json$"
 			},
 			{
 				"namespace": "^minecraft$",
