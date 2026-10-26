@@ -30,9 +30,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"better_survival:diamond_axe",
 			"better_survival:diamond_hoe",
-			"better_survival:diamond_pickaxe",
 			"better_survival:diamond_shovel",
 			"better_survival:diamond_spear",
 			"better_survival:diamond_sword"

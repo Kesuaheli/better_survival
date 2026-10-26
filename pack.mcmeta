@@ -8,14 +8,6 @@
 		"block": [
 			{
 				"namespace": "^minecraft$",
-				"path": "^recipe/diamond_pickaxe\\.json$"
-			},
-			{
-				"namespace": "^minecraft$",
-				"path": "^recipe/diamond_axe\\.json$"
-			},
-			{
-				"namespace": "^minecraft$",
 				"path": "^recipe/diamond_sword\\.json$"
 			},
 			{
@@ -81,14 +73,6 @@
 			{
 				"namespace": "^minecraft$",
 				"path": "^advancement/recipes/redstone/sticky_piston\\.json$"
-			},
-			{
-				"namespace": "^minecraft$",
-				"path": "^advancement/recipes/tools/diamond_pickaxe\\.json$"
-			},
-			{
-				"namespace": "^minecraft$",
-				"path": "^advancement/recipes/tools/diamond_axe\\.json$"
 			},
 			{
 				"namespace": "^minecraft$",
