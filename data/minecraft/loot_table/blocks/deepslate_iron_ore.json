@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "better_survival:blocks/deepslare_iron_ore"
+					"value": "better_survival:blocks/deepslate_iron_ore"
 				}
 			]
 		}
