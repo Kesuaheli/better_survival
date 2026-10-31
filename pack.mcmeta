@@ -4,6 +4,11 @@
 		"max_format": [121, 0],
 		"description": "A datapack for a better survival experience for our server."
 	},
+	"features": {
+		"enabled": [
+			"minecraft:minecart_improvements"
+		]
+	},
 	"filter": {
 		"block": [
 			{
