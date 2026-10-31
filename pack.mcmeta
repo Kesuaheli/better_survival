@@ -13,6 +13,14 @@
 		"block": [
 			{
 				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_pickaxe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/diamond_axe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^recipe/diamond_sword\\.json$"
 			},
 			{
@@ -49,6 +57,14 @@
 			},
 			{
 				"namespace": "^minecraft$",
+				"path": "^recipe/netherite_ingot\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^recipe/netherite_upgrade_smithing_template\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^advancement/story/(enter_the_end|follow_ender_eye)\\.json$"
 			},
 			{
@@ -77,7 +93,23 @@
 			},
 			{
 				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/misc/netherite_ingot\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/misc/netherite_upgrade_smithing_template\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
 				"path": "^advancement/recipes/redstone/sticky_piston\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_pickaxe\\.json$"
+			},
+			{
+				"namespace": "^minecraft$",
+				"path": "^advancement/recipes/tools/diamond_axe\\.json$"
 			},
 			{
 				"namespace": "^minecraft$",

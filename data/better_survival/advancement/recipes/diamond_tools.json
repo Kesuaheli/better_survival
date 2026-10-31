@@ -11,12 +11,12 @@
 				]
 			}
 		},
-		"has_stone_rod": {
+		"has_upgrade": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "#better_survival:stone_rod"
+						"items": "minecraft:netherite_upgrade_smithing_template"
 					}
 				]
 			}
@@ -25,15 +25,22 @@
 	"requirements": [
 		[
 			"has_diamond",
-			"has_stone_rod"
+			"has_upgrade"
 		]
 	],
 	"rewards": {
 		"recipes": [
-			"better_survival:diamond_hoe",
-			"better_survival:diamond_shovel",
-			"better_survival:diamond_spear",
-			"better_survival:diamond_sword"
+			"better_survival:diamond_axe_smithing",
+			"better_survival:diamond_boots_smithing",
+			"better_survival:diamond_chestplate_smithing",
+			"better_survival:diamond_helmet_smithing",
+			"better_survival:diamond_hoe_smithing",
+			"better_survival:diamond_leggings_smithing",
+			"better_survival:diamond_pickaxe_smithing",
+			"better_survival:diamond_shovel_smithing",
+			"better_survival:diamond_spear_smithing",
+			"better_survival:diamond_sword_smithing",
+			"better_survival:upgrade_smithing_template"
 		]
 	}
 }
