@@ -7,8 +7,8 @@
 		"T": "minecraft:netherite_upgrade_smithing_template"
 	},
 	"pattern": [
-		"dTd",
 		"dCd",
+		"dTd",
 		"iii"
 	],
 	"result": {
