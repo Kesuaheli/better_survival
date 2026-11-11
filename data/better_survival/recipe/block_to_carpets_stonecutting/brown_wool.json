@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "minecraft:brown_carpet",
+	"result": {
+		"id": "minecraft:brown_wool",
+		"count": 2
+	}
+}
