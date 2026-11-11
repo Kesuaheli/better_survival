@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_clay": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:clay_ball"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"better_survival:golf_ball/black",
+			"better_survival:golf_ball/blue",
+			"better_survival:golf_ball/brown",
+			"better_survival:golf_ball/cyan",
+			"better_survival:golf_ball/gray",
+			"better_survival:golf_ball/green",
+			"better_survival:golf_ball/light_blue",
+			"better_survival:golf_ball/light_gray",
+			"better_survival:golf_ball/lime",
+			"better_survival:golf_ball/magenta",
+			"better_survival:golf_ball/orange",
+			"better_survival:golf_ball/pink",
+			"better_survival:golf_ball/purple",
+			"better_survival:golf_ball/red",
+			"better_survival:golf_ball/white",
+			"better_survival:golf_ball/yellow"
+		]
+	}
+}

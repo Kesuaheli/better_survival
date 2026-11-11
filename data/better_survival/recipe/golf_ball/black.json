@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "golf_balls",
+	"category": "misc",
+	"key": {
+		"c": "minecraft:clay_ball",
+		"s": "minecraft:slime_ball",
+		"d": "minecraft:black_dye"
+	},
+	"pattern": [
+		"dcd",
+		"csc",
+		"dcd"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:player_head",
+		"components": {
+			"minecraft:item_name": {"translate":"item.better_survival.black_golf_ball"},
+			"minecraft:rarity": "common",
+			"minecraft:profile": {
+				"properties": [
+					{
+						"name":"textures",
+						"value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk5M2NmZmI1OTllODU2ZjQ0NWZiOTVmODM5MDNmMTc5ZTk4NGJiOGI1OGRiN2I5MGFjZTdmYWViOWUzYTFhNCJ9fX0="
+					}
+				]
+			}
+		}
+	}
+}
